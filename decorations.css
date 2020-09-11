@@ -24,8 +24,6 @@ p {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    margin-left: 36.05em;
-    margin-right: 36.05em;
     background-color: black;
     font-family: sans-serif;
     display: flex;
@@ -35,14 +33,18 @@ p {
 
 .navlink > a {
     text-decoration: none;
-    font-size: 2em;
+    font-size: 3em;
     color: white;
-    padding: 5px;
+    padding: 10px;
     display: block;
 }
 
 .navlink > a:hover {
     background-color: rgb(80, 80, 80);
+}
+
+.navlink > a: {
+
 }
 
 code {
