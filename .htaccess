@@ -3,4 +3,4 @@
     deny from all
 </Directory>
 
-DirectoryIndex .\about.html
+DirectoryIndex index.html
