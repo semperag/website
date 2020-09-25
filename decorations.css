@@ -75,3 +75,21 @@ code {
 .blue {
     color: #4422dd;
 }
+
+.scrollbar-example {
+    max-height: 100px;
+    overflow: auto;
+    scrollbar-color: blue;
+    border: solid rgb(122, 122, 122);
+}
+
+.scrollbar-example::-webkit-scrollbar{
+    width: 11px;
+    height: 11px;
+    background-color: rgb(211, 211, 211);
+}
+
+.scrollbar-example::-webkit-scrollbar-thumb {
+    background:  blue;
+}
+
