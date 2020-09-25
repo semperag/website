@@ -43,6 +43,15 @@ p {
     background-color: rgb(80, 80, 80);
 }
 
+.social-link {
+    text-decoration: none;
+    color: black;
+}
+.social-link > a {
+    text-decoration: none;
+    color: black;
+}
+
 table, th, td {
     border: 1px solid black;
   }
