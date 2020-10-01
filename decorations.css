@@ -76,6 +76,14 @@ code {
     color: #4422dd;
 }
 
+.yellowG {
+    color: rgb(210, 255, 88);
+}
+
+.green {
+    color: rgb(59, 165, 112);
+}
+
 .scrollbar-example {
     max-height: 100px;
     overflow: auto;

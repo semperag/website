@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="Utf-8">
+        <meta name="author" content="Adi Sempertegui">
+        <meta name="description" content="weekly blog">
+        <title>CS 347 Blog</title>
+        <link rel="stylesheet" href=".\decorations.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="navlinks">
+                <li class="navlink"><a href=".\index.html">blog</a></li>
+                <li class="navlink"><a href=".\about.html">about</a></li>
+            </ul>
+        </nav>
+        <div id="root">
+           <header>
+                <h1>Blog #4: Week 8</h1>
+            </header>
+            <main>
+                <div>
+                    <p>
+                        This week was slower than usual, so I have learned fewer things than normal. But 
+                        nonetheless, I found out a neat trick that has to do with the 
+                        <a href="https://www.w3schools.com/js/js_timing.asp" target="_blank">
+                            setTimeout()</a>   
+                        function in JavaScript. You can write out
+
+                        <p><pre><code>setTimeout</span>(<span class="blue">myFunction()</span>, <span class="green">3000</span>);</code></pre></p>
+                        
+                        in JavaScript and the function that would be in “myFunction” would excuted after the 
+                        given milliseconds in the second argument. In this case, it would be 3 seconds (or 3000 
+                        milliseconds). Another thing I learned was spacing for table rows either vertically or 
+                        horizontally. This 
+                        <a href="https://www.w3docs.com/snippets/css/how-to-create-space-between-rows-in-the-table.html" target="_blank">
+                            website </a>  
+                        shows great examples for learning. You need the border-collapse style to equal separate for 
+                        elements inside the table to have their own border, then set border-spacing style to two 
+                        variables of pixels of your choosing. The first variable will be the horizontal spacing 
+                        between elements in the table and the second will be the vertical spacing. This can be 
+                        called inside the table element of your CSS file.
+
+                    </p>									       
+                </div>
+
+                <br>
+
+                <div>
+                    <p>
+                        A very useful Trick I have learned this week was the 
+                        <a href="https://stackoverflow.com/questions/48239/getting-the-id-of-the-element-that-fired-an-event" target="_blank">
+                            event.target.id  </a> 
+                        in JavaScript. This will come in handy when you set an array of elements to the same 
+                        eventListener and you want to know which element fired off the action/event. You need to 
+                        add an argument, usually named "event", to the function the elements will fire off. After 
+                        the function executes, you for-loop the array of elements then write an if statement that 
+                        compares the event.target.id with each element’s id, and now you will figure out the element 
+                        that fired off the event and its position. Lastly, a small cool design trick I found was by using 
+                        opacity in CSS. For one of my symbols in my index page, I made its opacity equal 0.3 because 
+                        I do not want it to interfere with the background image and make it look ugly. But when the 
+                        user hovers over the symbol, its opacity changes to one. This allows the symbol to be semi-transparent 
+                        for the background to pop out while becoming clearly visible when needed to be clicked on.
+                    </p>
+                </div>
+            </main> 
+        </div>
+    </body>
+</html>
