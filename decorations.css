@@ -6,7 +6,7 @@ body {
 #root {
     font-size: 2em;
     background-color: white;
-    width: 960px;
+    width: 1000px;
     min-height: 100vh;
     margin: 0 auto;
     padding: 10px;
@@ -101,3 +101,12 @@ code {
     background:  blue;
 }
 
+#example-div {
+    width: 500px;
+    height: 200px;
+    background-image: linear-gradient(to bottom right, blue, yellow);
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    font-size: 1.1em;
+}

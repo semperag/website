@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="Utf-8">
+        <meta name="author" content="Adi Sempertegui">
+        <meta name="description" content="weekly blog">
+        <title>CS 347 Blog</title>
+        <link rel="stylesheet" href=".\decorations.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="navlinks">
+                <li class="navlink"><a href=".\index.html">blog</a></li>
+                <li class="navlink"><a href=".\about.html">about</a></li>
+            </ul>
+        </nav>
+        <div id="root">
+           <header>
+                <h1>Blog #5: Week 9</h1>
+            </header>
+            <main>
+                <div>
+                    <p>
+                        This week on my blog, I learned a very cool trick with HTML’s background. You could set 
+                        the background to multiple colors intersecting. All that needs to be done is setting the 
+                        “background-image” of an element to 
+                        <a href="https://www.w3schools.com/css/css3_gradients.asp" target="_blank">
+                            linear-gradient()</a>  
+                        like so:
+
+                        <p id="scroll"><pre><code><span class="greenY">#example-div </span>{ 
+    <span class="purple">width: </span><span>100px;</span>
+    <span class="purple">height: </span><span>100px;</span>
+    <span class="purple">background-image: </span><span>linear-gradient(to bottom right, blue, yellow);</span>
+}</code></pre></p>
+
+                        <div id="example-div">example-div</div>    
+                        
+                        If you want to add more than two colors, you can do so by just inserting colors after the 
+                        position (in this case it is ‘to bottom right’). This will make my website more eye-popping, 
+                        just like this other effect that is known as 
+                        <a href="https://www.abeautifulsite.net/a-clean-fade-in-effect-for-webpages" target="_blank">
+                            fade-in.</a>  
+                        This allows a HTML page to just fade in which I think will look so cool. 
+
+                    </p>									       
+                </div>
+
+                <br>
+
+                <div>
+                    <p>
+                        Another very cool thing I learned was a 
+                        <a href="https://www.w3schools.com/howto/howto_css_loader.asp" target="_blank">
+                            loading element.</a> 
+                        As the name suggests, it is an element that appears to be a circular loading object. This will 
+                        be useful for my website’s opening because I can use this loading element to show up instead 
+                        of my actual elements loading up and looking bad while doing so. I saw that there is also a 
+                        progress bar that is used by the &lt;progress&gt; or &lt;meter&gt; tag, which could also be used as loading 
+                        objects. The only problem is they stay at one position, so to increase the progress bar you 
+                        need to update it using JavaScript, which is a hassle. Although, this seems useful for when I 
+                        would like users to download a file so while waiting, they get a progress bar to know how long it 
+                        will take.
+                    </p>
+                </div>
+            </main> 
+        </div>
+    </body>
+</html>
