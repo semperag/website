@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="Utf-8">
+        <meta name="author" content="Adi Sempertegui">
+        <meta name="description" content="weekly blog">
+        <title>CS 347 Blog</title>
+        <link rel="stylesheet" href=".\decorations.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="navlinks">
+                <li class="navlink"><a href=".\index.html">blog</a></li>
+                <li class="navlink"><a href=".\about.html">about</a></li>
+            </ul>
+        </nav>
+        <div id="root">
+           <header>
+                <h1>Blog #6: Week 12</h1>
+            </header>
+            <main>
+                <div>
+                    <p>
+                        This week has been the most confusing for me because we are learning React for JavaScript. 
+                        I am still stuck on a few things like changing properties, but I have looked online and got 
+                        a better understanding for React while learning new things. I saw that we could use try & 
+                        catch statements just like in Java. All you need to do encapsulate the code you want to test 
+                        in a try block and then add a catch statement which will run the code in its block if there 
+                        is an error present. Error boundaries are a new a new thing in React and makes try & catch 
+                        statements so much easier. Error boundaries are described as in this 
+                        <a href="https://jsmanifest.com/8-useful-tricks-in-react-you-should-know/" target="_blank">
+                            website</a>  
+                        “Error boundaries are react components that catch errors anywhere in the component tree, log 
+                        them, and can display a fallback UI instead of the component tree that crashed.” They can be 
+                        written as easy as:
+
+                        <pre><code><span class="brown">
+&lt;ErrorBounday&gt;
+    &lt;MyWidget &#47;&gt;
+&lt;ErrorBoundary &#47;&gt;
+                    </span></code></pre>								       
+                </div>
+
+                <br>
+
+                <div>
+                    <p>
+                        I learned another thing called 
+                        <a href="https://jsmanifest.com/8-useful-tricks-in-react-you-should-know/" target="_blank">
+                            React.useRef.</a> 
+                        In class, I was taught that React.useState([]) is used the assign the current value of the component. 
+                        React.useRef on the other hand is used to retain the previous value(s) of said component. This is 
+                        because the previous component will be assigned by React.useEffect(), it works because after 
+                        components finish rendering React.useEffect() runs. A less useful thing I learned was being able to 
+                        style components by importing 
+                        <a href="https://dev.to/simonholdorf/10-tips-tricks-that-will-make-you-a-better-reactjs-dev-4fhn" target="_blank">
+                            ‘styled-components.’</a> 
+                        After creating a component, you can assign it to a styled.element 'insert styes here.' Inside the 
+                        single quotes, all you need to do is write in original CSS code, you could also write in if 
+                        statements with components inside your class to determine which decoration to use. 
+                    </p>
+                </div>
+            </main> 
+        </div>
+    </body>
+</html>

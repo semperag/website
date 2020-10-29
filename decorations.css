@@ -84,6 +84,10 @@ code {
     color: rgb(59, 165, 112);
 }
 
+.brown {
+    color: rgb(105, 61, 40);
+}
+
 .scrollbar-example {
     max-height: 100px;
     overflow: auto;
