@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="Utf-8">
+        <meta name="author" content="Adi Sempertegui">
+        <meta name="description" content="weekly blog">
+        <title>CS 347 Blog</title>
+        <link rel="stylesheet" href=".\decorations.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="navlinks">
+                <li class="navlink"><a href=".\index.html">blog</a></li>
+                <li class="navlink"><a href=".\about.html">about</a></li>
+            </ul>
+        </nav>
+        <div id="root">
+           <header>
+                <h1>Blog #7: Week 13</h1>
+            </header>
+            <main>
+                <div>
+                    <p>
+                        This week I have looked for new knowledge in the React JS area. The first I learned was about portals. 
+                        These portals allow for components inside React to become DOM nodes separate from the original application 
+                        that it is in. As this 
+                        <a href="https://www.creativebloq.com/news/5-expert-reactjs-tips-that-you-need-to-know-today" target="_blank">
+                            website</a> 
+                        describes “any event that gets triggered inside the portal will bubble up through the parent in React, 
+                        rather than into the portal container element itself.” The portal can also be returned by the render 
+                        function. If you wanted to display some content, you would be able to put the content inside of this 
+                        component and still display in the other element.
+
+                        <pre><code><span class="brown">
+ReactDOM.createPortal(
+    this.props.children,
+    document.getElementById(‘modal’),
+);
+                    </span></code></pre>								       
+                </div>
+
+
+                <br>
+
+                <div>
+                    <p>
+                        I also learned that there are tools out there that let you set out rules for your code to abide by. 
+                        These tools are called 
+                        <a href="https://www.creativebloq.com/news/5-expert-reactjs-tips-that-you-need-to-know-today" target="_blank">
+                            linters</a>
+                        and will highlight code that do not follow your rules. It is very helpful with working in groups, so code 
+                        quality looks about the same for everyone. I do not know if I have learned this in class, but a fragment 
+                        is written as &lt;React Fragment&gt;”content”&lt;&#47;&gt;. You are able to write this even shorter and just type &lt;&gt;&lt;&#47;&gt;.
+                        And lastly you can call a 
+                        <a href="https://medium.com/javascript-in-plain-english/8-react-tips-tricks-1f1a429d7da0" target="_blank">
+                            functional component</a>
+                        just like a regular function. For example:
+
+                        <pre><code><span class="brown">
+&lt;SomeComponent&#47;&gt; =&gt; SomeComponent()
+                        </span></code></pre>
+                    </p>
+                </div>
+            </main> 
+        </div>
+    </body>
+</html>
