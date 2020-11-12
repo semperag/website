@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="Utf-8">
+        <meta name="author" content="Adi Sempertegui">
+        <meta name="description" content="weekly blog">
+        <title>CS 347 Blog</title>
+        <link rel="stylesheet" href=".\decorations.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="navlinks">
+                <li class="navlink"><a href=".\index.html">blog</a></li>
+                <li class="navlink"><a href=".\about.html">about</a></li>
+            </ul>
+        </nav>
+        <div id="root">
+           <header>
+                <h1>Blog #8: Week 14</h1>
+            </header>
+            <main>
+                <div>
+                    <p>
+                        This week was for me to catch up on thing in my CS 347 class. I, am pretty sure that I, 
+                        understand what endpoints mean now. They could be just characterized as a 
+                        <a href="https://rapidapi.com/blog/api-glossary/endpoint/" target="_blank">
+                            “URL of a server or service.”</a> 
+                        You set an endpoint for your code so that your are able to use helper methods of a 
+                        particular server in order to work on or around that server much easier or faster. For 
+                        example, Google Cloud gives you an API 
+                        <a href="https://cloud.google.com/endpoints" target="_blank">
+                            endpoint</a> 
+                        so that you are able to click on any button or search for anything by 
+                        just running your code, obviously your code has to giving an order to your machine to 
+                        access these accessories. With finding out what are endpoints, I also found out that 
+                        they must be 
+                        <a href="https://geekflare.com/securing-api-endpoint/" target="_blank">
+                            secured.</a> 
+                        It is best to use HTTPS websites to not risk a use a sketchy one. If I am not wrong, 
+                        my professor told me to limit the calls of a client so the system will not be overflowing 
+                        by a coding error or bots.
+                    </p>
+                </div>
+
+
+                <br>
+
+                <div>
+                    <p>
+                        I was still a bit confused on why we should be using redux. This 
+                        <a href="https://stackoverflow.com/questions/54212798/what-is-redux-for-if-i-use-a-database-for-my-react-app" target="_blank">
+                            description</a> 
+                        helped my understand it more. With react, you can share data of components if their 
+                        parents are the same. But as more and more components are added, new parents are made, 
+                        and the code will only become more error prone. Redux allows for the internal state to 
+                        be global which makes it accessible to all components. A 
+                        <a href="https://www.w3schools.com/react/react_state.asp" target="_blank">
+                            state</a> is an object that store property values. Internal state being the object 
+                            that is inside your code or the code the web service was written on. Here is an 
+                            example of a state:
+
+                        <pre><code><span class="brown">
+class Car extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {brand: "Ford"};
+    }
+}
+                        </span></code></pre>
+                    </p>
+                </div>
+            </main> 
+        </div>
+    </body>
+</html>
